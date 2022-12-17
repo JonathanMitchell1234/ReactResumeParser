@@ -24,6 +24,7 @@ const ParseResumeForm = () => {
 	};
 
 	const handleFileChange = (event) => {
+		console.log(event.target.form);
 		setFormData(new FormData(event.target.form));
 	};
 
